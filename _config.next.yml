@@ -50,10 +50,10 @@ darkmode: false
 # ---------------------------------------------------------------
 
 favicon:
-  small: /images/favicon-16x16-caodong.png
-  medium: /images/favicon-32x32-caodong.png
-  apple_touch_icon: /images/favicon-apple-caodong.png
-  safari_pinned_tab: /images/favicon-caodong.svg
+  small: /images/favicon-16x16.png
+  medium: /images/favicon-32x32.png
+  apple_touch_icon: /images/favicon-180x180.png
+  safari_pinned_tab: /images/favicon.svg
   #android_manifest: /manifest.json
 
 # Custom Logo (Warning: Do not support scheme Mist)
