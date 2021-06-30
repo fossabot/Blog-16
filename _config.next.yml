@@ -23,8 +23,8 @@ custom_file_path:
   #header: source/_data/header.njk
   #sidebar: source/_data/sidebar.njk
   #postMeta: source/_data/post-meta.njk
-  #postBodyEnd: source/_data/post-body-end.njk
-  #footer: source/_data/footer.njk
+  #postBodyEnd:source/_data/post-body-end.njk
+  footer: source/_data/footer.njk
   #bodyEnd: source/_data/body-end.njk
   #variable: source/_data/variables.styl
   #mixin: source/_data/mixins.styl
@@ -65,7 +65,7 @@ creative_commons:
   # Available values: by | by-nc | by-nc-nd | by-nc-sa | by-nd | by-sa | cc-zero
   license: by-nc-sa
   # Available values: big | small
-  size: true
+  size: small
   sidebar: false
   post: true
   # You can set a language value if you prefer a translated version of CC license, e.g. deed.zh
@@ -129,9 +129,9 @@ avatar:
   # Replace the default image and set the url here.
   url: /images/avatar.png
   # If true, the avatar will be dispalyed in circle.
-  rounded: false
+  rounded: true
   # If true, the avatar will be rotated with the cursor.
-  rotated: false
+  rotated: true
 
 # Posts / Categories / Tags in sidebar.
 site_state: true
@@ -151,11 +151,12 @@ social:
   #YouTube: https://youtube.com/yourname || fab fa-youtube
   #Instagram: https://instagram.com/yourname || fab fa-instagram
   #Skype: skype:yourname?call|chat || fab fa-skype
+  RSS: /atom.xml || fa fa-rss
 
 social_icons:
   enable: true
-  icons_only: false
-  transition: false
+  icons_only: true
+  transition: true
 
 # Blog rolls
 links_settings:
@@ -196,7 +197,7 @@ footer:
   # Icon between year and copyright info.
   icon:
     # Icon name in Font Awesome. See: https://fontawesome.com/icons
-    name: fa fa-heart
+    name: fa fa-user
     # If you want to animate the icon, set it to true.
     animated: true
     # Change the color of icon, using Hex Code.
