@@ -142,7 +142,7 @@ site_state: true
 # Value before `||` delimiter is the target permalink, value after `||` delimiter is the name of Font Awesome icon.
 social:
   GitHub: https://github.com/rocona || fab fa-github
-  E-Mail: mailto:caodong1991@gmail.com || fa fa-envelope
+  E-Mail: mailto:caodong1991@163.com || fa fa-envelope
   Weibo: https://weibo.com/cd1991 || fab fa-weibo
   #Google: https://plus.google.com/yourname || fab fa-google
   Twitter: https://twitter.com/caodong386 || fab fa-twitter
@@ -461,7 +461,7 @@ font:
 
 # If true, site-subtitle will be added to index page.
 # Remember to set up your site-subtitle in Hexo `_config.yml` (e.g. subtitle: Subtitle)
-index_with_subtitle: false
+index_with_subtitle:  true
 
 # Automatically add external URL with Base64 encrypt & decrypt.
 exturl: false
@@ -470,11 +470,11 @@ exturl_icon: true
 
 # Google Webmaster tools verification.
 # See: https://developers.google.com/search
-google_site_verification:
+google_site_verification: PNBIBm1KkDbQoqgTd7o7jD8T6XTD_oLXRkUybqudbSQ
 
 # Bing Webmaster tools verification.
 # See: https://www.bing.com/webmasters
-bing_site_verification:
+bing_site_verification: 58580FFF07D85A29F9FA02AB5FEB1E62
 
 # Yandex Webmaster tools verification.
 # See: https://webmaster.yandex.ru
@@ -482,7 +482,7 @@ yandex_site_verification:
 
 # Baidu Webmaster tools verification.
 # See: https://ziyuan.baidu.com/site
-baidu_site_verification:
+baidu_site_verification: code-t6a9PEVUnf
 
 
 # ---------------------------------------------------------------
@@ -664,14 +664,14 @@ add_this_id:
 # Google Analytics
 # See: https://analytics.google.com
 google_analytics:
-  tracking_id: # <app_id>
+  tracking_id: UA-81910426-1
   # By default, NexT will load an external gtag.js script on your site.
   # If you only need the pageview feature, set the following option to true to get a better performance.
   only_pageview: false
 
 # Baidu Analytics
 # See: https://tongji.baidu.com
-baidu_analytics: # <app_id>
+baidu_analytics: 923ecbbc8918df5395ec9216ddfa3d30
 
 # Growingio Analytics
 # See: https://www.growingio.com
