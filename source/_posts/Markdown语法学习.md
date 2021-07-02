@@ -356,11 +356,11 @@ Markdown也允许你偷懒只在整个段落的第一行最前面加上 > :
 
 ```Markdown
 南锣鼓巷：
-![南锣鼓巷](https://resource.caodong.me/image/2017-06-25.jpeg "南锣鼓巷")
+![南锣鼓巷](https://resources.caodong.me/image/2017-06-25.jpeg "南锣鼓巷")
 ```
 **显示效果：**
 南锣鼓巷：
-![南锣鼓巷](https://resource.caodong.me/image/2017-06-25.jpeg "南锣鼓巷")
+![南锣鼓巷](https://resources.caodong.me/image/2017-06-25.jpeg "南锣鼓巷")
 
 #### 参考式
 **语法说明：**
@@ -372,13 +372,13 @@ Markdown也允许你偷懒只在整个段落的第一行最前面加上 > :
 南锣鼓巷：
 ![南锣鼓巷][NanluoguLane]
 
-[NanluoguLane]:https://resource.caodong.me/image/2017-06-25.jpeg "南锣鼓巷"
+[NanluoguLane]:https://resources.caodong.me/image/2017-06-25.jpeg "南锣鼓巷"
 ```
 **显示效果：**
 南锣鼓巷：
 ![南锣鼓巷][NanluoguLane]
 
-[NanluoguLane]:https://resource.caodong.me/image/2017-06-25.jpeg "南锣鼓巷"
+[NanluoguLane]:https://resources.caodong.me/image/2017-06-25.jpeg "南锣鼓巷"
 
 ---
 
