@@ -58,13 +58,13 @@ Markdown支持两种形式的链接语法：行内式和参考式两种形式，
 **代码:**
 
 ```Markdown
-欢迎来到[Markdown语法学习](https://blog.rainose.com/2017/06/23/Markdown%E8%AF%AD%E6%B3%95%E5%AD%A6%E4%B9%A0/)
-欢迎来到[Markdown语法学习](https://blog.rainose.com/2017/06/23/Markdown%E8%AF%AD%E6%B3%95%E5%AD%A6%E4%B9%A0/ “Markdown语法学习”)
+欢迎来到[Markdown语法学习](https://blog.caodong.me/2021/03/22/Markdown语法学习)
+欢迎来到[Markdown语法学习](https://blog.caodong.me/2021/03/22/Markdown语法学习 “Markdown语法学习”)
 ```
 
 **显示效果：**
-欢迎来到[Markdown语法学习](https://blog.rainose.com/2017/06/23/Markdown%E8%AF%AD%E6%B3%95%E5%AD%A6%E4%B9%A0/)
-欢迎来到[Markdown语法学习](https://blog.rainose.com/2017/06/23/Markdown%E8%AF%AD%E6%B3%95%E5%AD%A6%E4%B9%A0/ “Markdown语法学习”)
+欢迎来到[Markdown语法学习](https://blog.caodong.me/2021/03/22/Markdown语法学习)
+欢迎来到[Markdown语法学习](https://blog.caodong.me/2021/03/22/Markdown语法学习 “Markdown语法学习”)
 
 
 #### 参考式
@@ -75,16 +75,15 @@ Markdown支持两种形式的链接语法：行内式和参考式两种形式，
 [链接文字]：链接地址的形式，见代码的最后一个行。
 **代码:**
 
-```
+```Markdown
 我经常去的几个网站[Google][1]、[Github][2]
 [Github][2]是一个不错的程序员交流[平台][]
 [我的博客][3]
 
 [1]:https://www.google.com "Google"
 [2]:https://github.com "Github"
-[3]:https://blog.rainose.com "rainose的技术随笔"
+[3]:https://blog.caodong.me "技术随笔"
 [平台]:https://github.com
-
 ```
 
 **显示效果:**
@@ -94,7 +93,7 @@ Markdown支持两种形式的链接语法：行内式和参考式两种形式，
 
 [1]:https://www.google.com "Google"
 [2]:https://github.com "Github"
-[3]:https://blog.rainose.com "rainose的技术随笔"
+[3]:https://blog.caodong.me "技术随笔"
 [平台]:https://github.com
 
 #### 自动链接
@@ -357,11 +356,11 @@ Markdown也允许你偷懒只在整个段落的第一行最前面加上 > :
 
 ```Markdown
 南锣鼓巷：
-![南锣鼓巷](http://cloud.rainose.com/blog/2017-06-25-timg%20-1-.jpeg "南锣鼓巷")
+![南锣鼓巷](https://resource.caodong.me/image/2017-06-25.jpeg "南锣鼓巷")
 ```
 **显示效果：**
 南锣鼓巷：
-![南锣鼓巷](http://cloud.rainose.com/blog/2017-06-25-timg%20-1-.jpeg "南锣鼓巷")
+![南锣鼓巷](https://resource.caodong.me/image/2017-06-25.jpeg "南锣鼓巷")
 
 #### 参考式
 **语法说明：**
@@ -373,13 +372,13 @@ Markdown也允许你偷懒只在整个段落的第一行最前面加上 > :
 南锣鼓巷：
 ![南锣鼓巷][NanluoguLane]
 
-[NanluoguLane]:http://cloud.rainose.com/blog/2017-06-25-timg%20-1-.jpeg "南锣鼓巷"
+[NanluoguLane]:https://resource.caodong.me/image/2017-06-25.jpeg "南锣鼓巷"
 ```
 **显示效果：**
 南锣鼓巷：
 ![南锣鼓巷][NanluoguLane]
 
-[NanluoguLane]:http://cloud.rainose.com/blog/2017-06-25-timg%20-1-.jpeg "南锣鼓巷"
+[NanluoguLane]:https://resource.caodong.me/image/2017-06-25.jpeg "南锣鼓巷"
 
 ---
 
