@@ -671,7 +671,7 @@ google_analytics:
 
 # Baidu Analytics
 # See: https://tongji.baidu.com
-baidu_analytics: 923ecbbc8918df5395ec9216ddfa3d30
+baidu_analytics: # 923ecbbc8918df5395ec9216ddfa3d30
 
 # Growingio Analytics
 # See: https://www.growingio.com
@@ -679,7 +679,7 @@ growingio_analytics: # <project_id>
 
 # Cloudflare Web Analytics
 # See: https://www.cloudflare.com/web-analytics/
-cloudflare_analytics:
+cloudflare_analytics: b7c1f03b525348bc9f1daab9a6f0dc01
 
 # Show number of visitors of each article.
 # You can visit https://www.leancloud.cn to get AppID and AppKey.
