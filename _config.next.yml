@@ -581,7 +581,7 @@ comments:
 # For more information: https://disqus.com
 disqus:
   enable: false
-  shortname:
+  shortname: dongs-blog
   count: true
 
 # DisqusJS
