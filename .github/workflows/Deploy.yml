@@ -49,7 +49,7 @@ jobs:
       - name: install hexo Plug and Hexo Theme # npm ls --depth 0 可查看自己安装了哪些插件
         run: |
           npm install hexo-deployer-git --save
-          npm install hexo-generator-archiv --save
+          npm install hexo-generator-archive --save
           npm install hexo-generator-category --save
           npm install hexo-generator-feed --save
           npm install hexo-generator-index --save
