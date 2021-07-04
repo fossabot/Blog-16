@@ -23,12 +23,12 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
         
-      - name: set Node.js
+      - name: Set Node.js
         uses: actions/setup-node@v1 
         with:
           node-version: 16.4
             
-      - name: set Git
+      - name: Set Git
         env:
           HEXO_DEPLOY_GIT_SSH_PRIVATE_KEY: ${{secrets.HEXO_DEPLOY_GIT_SSH_PRIVATE_KEY}}
         run: |
@@ -41,14 +41,15 @@ jobs:
           git config --global user.name "${{secrets.HEXO_DEPLOY_GIT_NAME}}"
           git config --global user.email "${{secrets.HEXO_DEPLOY_GIT_EMAIL}}"
 
-      - name: install Hexo Cli
+      - name: Install Hexo-cli
         run: |
           export TZ='Asia/Shanghai'
           npm install hexo-cli -g
           npm install
           npm audit fix
 
-      - name: install hexo Plug and Hexo Theme # npm ls --depth 0 可查看自己安装了哪些插件
+      # npm ls --depth 0 可查看自己安装了哪些插件
+      - name: Install Hexo Plug and Hexo Theme 
         run: |
           npm install hexo-deployer-git --save
           npm install hexo-generator-archive --save
