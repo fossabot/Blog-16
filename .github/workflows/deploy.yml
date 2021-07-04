@@ -1,6 +1,6 @@
 # This is a basic workflow to help you get started with Actions
 
-name: Hexo Blog Deploy CI
+name: Hexo blog deploy CI
 
 # Controls when the workflow will run
 on:
@@ -23,12 +23,12 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
         
-      - name: Set Node.js
+      - name: set Node.js
         uses: actions/setup-node@v1 
         with:
           node-version: 16.4
             
-      - name: Set Git
+      - name: set Git
         env:
           HEXO_DEPLOY_GIT_SSH_PRIVATE_KEY: ${{secrets.HEXO_DEPLOY_GIT_SSH_PRIVATE_KEY}}
         run: |
@@ -63,6 +63,8 @@ jobs:
           git clone ${{secrets.HEXO_THEME_GIT_URL}} themes/${{secrets.HEXO_THEME_NAME}}
           npm audit fix
 
-      - name: deploy Github Pages
+      - name: deploy and delete Git SSH
         run: |
           hexo clean && hexo d -g
+          rm ~/.ssh/id_rsa
+          rm -rf .deploy_git
