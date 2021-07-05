@@ -28,7 +28,7 @@ custom_file_path:
   bodyEnd: source/_data/body-end.njk
   variable: source/_data/variables.styl
   #mixin: source/_data/mixins.styl
-  #style: source/_data/styles.styl
+  style: source/_data/styles.styl
 
 
 # ---------------------------------------------------------------
@@ -142,6 +142,7 @@ site_state: true
 # Value before `||` delimiter is the target permalink, value after `||` delimiter is the name of Font Awesome icon.
 social:
   GitHub: https://github.com/rocona || fab fa-github
+  Leetcode: https://leetcode-cn.com/u/caodong || fab-iconfont fa-leetcode
   E-Mail: mailto:caodong1991@163.com || fa fa-envelope
   Weibo: https://weibo.com/cd1991 || fab fa-weibo
   #Google: https://plus.google.com/yourname || fab fa-google
