@@ -109,7 +109,18 @@ deploy:
     message:
 
 Plugins: 
-- hexo-generate-feed
+- hexo-deployer-git
+- hexo-generator-archive
+- hexo-generator-category
+- hexo-generator-feed
+- hexo-generator-index
+- hexo-generator-tag
+- hexo-generator-searchdb
+- hexo-renderer-ejs
+- hexo-renderer-marked
+- hexo-renderer-stylus
+- hexo-hide-posts
+- hexo-server
 
 search:
   path: search.xml
