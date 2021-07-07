@@ -46,7 +46,7 @@ jobs:
           export TZ='Asia/Shanghai'
           npm install hexo-cli -g
           npm install
-          npm audit fix
+          npm audit fix --force
 
       # npm ls --depth 0 可查看自己安装了哪些插件
       - name: Install Hexo Plug and Hexo Theme 
@@ -65,7 +65,7 @@ jobs:
           npm install hexo-reference --save
           npm install hexo-server --save
           git clone ${{secrets.HEXO_THEME_GIT_URL}} themes/${{secrets.HEXO_THEME_NAME}}
-          npm audit fix
+          npm audit fix --force
 
       - name: deploy and delete Git SSH
         run: |
