@@ -141,12 +141,13 @@ site_state: true
 # Key is the link label showing to end users.
 # Value before `||` delimiter is the target permalink, value after `||` delimiter is the name of Font Awesome icon.
 social:
+  Telegram: https://t.me/dong687 || fab fa-telegram
+  E-Mail: mailto:caodong1991@163.com || fa fa-envelope
   GitHub: https://github.com/rocona || fab fa-github
   Leetcode: https://leetcode-cn.com/u/caodong || fab-iconfont fa-leetcode
-  E-Mail: mailto:caodong1991@163.com || fa fa-envelope
-  Weibo: https://weibo.com/cd1991 || fab fa-weibo
+  #Weibo: https://weibo.com/cd1991 || fab fa-weibo
+  #Twitter: https://twitter.com/caodong386 || fab fa-twitter
   #Google: https://plus.google.com/yourname || fab fa-google
-  Twitter: https://twitter.com/caodong386 || fab fa-twitter
   #FB Page: https://www.facebook.com/yourname || fab fa-facebook
   #StackOverflow: https://stackoverflow.com/yourname || fab fa-stack-overflow
   #YouTube: https://youtube.com/yourname || fab fa-youtube
