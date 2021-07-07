@@ -120,6 +120,7 @@ Plugins:
 - hexo-renderer-marked
 - hexo-renderer-stylus
 - hexo-hide-posts
+- hexo-reference
 - hexo-server
 
 search:

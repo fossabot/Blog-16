@@ -62,6 +62,7 @@ jobs:
           npm install hexo-renderer-marked --save
           npm install hexo-renderer-stylus --save
           npm install hexo-hide-posts --save
+          npm install hexo-reference --save
           npm install hexo-server --save
           git clone ${{secrets.HEXO_THEME_GIT_URL}} themes/${{secrets.HEXO_THEME_NAME}}
           npm audit fix
