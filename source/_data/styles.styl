@@ -24,3 +24,36 @@
   content: "\e604";
 }
 
+
+/* header-顶部空白 */
+.header, .main-inner {
+  margin-top: 10px;
+  +mobile() {
+    margin-top: 0;
+  }
+}
+
+/* 圆角 */
+.header-inner, ///顶部圆角
+.sidebar-inner { //侧边头像圆角
+  border-radius: $my-radius;
+}
+
+.site-brand-container {
+  border-radius: $my-radius $my-radius 0 0;
+
+  +mobile() {
+    border-radius: 0 0 $my-radius $my-radius;
+  }
+}
+
+// post-文章卡片圆角
+.post-block,
+.post-block+.post-block {
+  border-radius: $my-radius !important;
+}
+
+// comment-圆角
+.comments {
+  border-radius: $my-radius !important;
+}
