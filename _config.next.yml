@@ -648,7 +648,7 @@ giscus:
   mapping: og:title
   reactions_enabled: 1
   # Available values: github-light | github-dark | preferred-color-scheme | github-dark-orange | icy-dark | dark-blue | photon-dark | boxy-light
-  theme: light
+  theme: preferred_color_scheme
 
 # Isso
 # For more information: https://posativ.org/isso/
