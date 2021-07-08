@@ -566,7 +566,7 @@ comments:
   style: tabs
   # Choose a comment system to be displayed by default.
   # Available values: disqus | disqusjs | changyan | livere | gitalk | utterances
-  active: utterances
+  active: 
   # Setting `true` means remembering the comment system selected by the visitor.
   storage: true
   # Lazyload all comment systems.
@@ -629,12 +629,26 @@ gitalk:
 # Utterances
 # For more information: https://utteranc.es
 utterances:
-  enable: true
+  enable: false
   repo: rocona/rocona.github.io
   # Available values: pathname | url | title | og:title
   issue_term: og:title
   # Available values: github-light | github-dark | preferred-color-scheme | github-dark-orange | icy-dark | dark-blue | photon-dark | boxy-light
   theme: github-light
+
+# Giscus
+# For more information: https://giscus.app/
+giscus:
+  enable: true
+  repo: rocona/rocona.github.io
+  repo_id: MDEwOlJlcG9zaXRvcnkzNDk5MzgyMjU=
+  category: 文章评论
+  category_id: DIC_kwDOFNuiMc4B-PT2
+  # Available values: pathname | url | title | og:title
+  mapping: og:title
+  reactions_enabled: 1
+  # Available values: github-light | github-dark | preferred-color-scheme | github-dark-orange | icy-dark | dark-blue | photon-dark | boxy-light
+  theme: light
 
 # Isso
 # For more information: https://posativ.org/isso/
