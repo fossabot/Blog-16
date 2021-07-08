@@ -37,13 +37,15 @@
 .header-inner, ///顶部圆角
 .sidebar-inner { //侧边头像圆角
   border-radius: $my-radius;
+  +mobile() {
+    border-radius: 0;
+  }
 }
 
 .site-brand-container {
   border-radius: $my-radius $my-radius 0 0;
-
   +mobile() {
-    border-radius: 0 0 $my-radius $my-radius;
+    border-radius: 0 0 0 0;
   }
 }
 
