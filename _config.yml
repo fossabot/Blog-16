@@ -122,6 +122,7 @@ Plugins:
 - hexo-hide-posts
 - hexo-next-giscus
 - hexo-server
+- hexo-generator-sitemap
 
 search:
   path: search.xml
